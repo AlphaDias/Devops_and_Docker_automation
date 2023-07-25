@@ -35,10 +35,10 @@ with open("configfile.json", 'r') as f:
 @app.route('/api',methods=['POST'])
 def recieveZip():
     conn = pymysql.connect(
-        host = '159.89.168.228',
-        user = 'root',
-        password = 'prod',
-        db='DevopsAdmin'
+        host = '',
+        user = '',
+        password = '',
+        db=''
         
     )
     try:
